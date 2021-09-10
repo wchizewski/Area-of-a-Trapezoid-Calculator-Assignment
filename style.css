@@ -4,4 +4,26 @@ html {
 
 body {
     background: white;
+    border-radius: 25px;
+    padding: 25px 50px;
+    margin: 25px auto;
+    width: 700px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: maroon;
+    
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
