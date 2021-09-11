@@ -16,8 +16,14 @@ h1, h2 {
 
 button {
     background-color: maroon;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
     
 }
+
 
 a {
     color: blue;
@@ -26,4 +32,8 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img {
+    border: 1px solid grey;
 }
