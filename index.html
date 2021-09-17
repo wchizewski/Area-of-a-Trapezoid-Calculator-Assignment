@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,27 @@
     <title>Area of a Trapezoid Calculator</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
     <h1>Area of a Trapezoid Calcucator</h1>
     <img src="img/area-trapezoid.png">
-    <p id="learn-more">Click <a href="https://www.mathsisfun.com/geometry/trapezoid.html" target="_blank">here</a> to learn more about trapezoids.</p>
+    <p id="learn-more">Click <a href="https://www.mathsisfun.com/geometry/trapezoid.html" target="_blank">here</a> to
+        learn more about trapezoids.</p>
 
     <h2>Input</h2>
     <p> Enter lenghth of side a: <input id="aSideIn" type="number"> </p>
     <p>Enter lenghth of side b: <input id="bSideIn" type="number"></p>
     <p>Enter height of trapezoid: <input id="trapHeightIn" type="number"></p>
 
-    <p><button id="calc-btn">Calculate</button></p>
-
-    <h2>Output</h2>
-
-    <p>The area of the trapezoid is: <span id="trapArea"> </span></p>
+    <button id="calcBtn">Calculate</button>
+    <button id="clearBtn">Clear</button>
     
-    
+
+    <h2 id="output" hidden>Output:</h2>
+
+    <p id="trapArea"></p>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

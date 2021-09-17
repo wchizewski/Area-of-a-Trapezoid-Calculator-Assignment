@@ -1,7 +1,7 @@
 // Area of a Trapezoid Calculator by Will
 
 // Event Listener
-document.getElementById("calc-btn").addEventListener("click", getArea);
+document.getElementById("calcBtn").addEventListener("click", getArea);
 
 // Event function
 function getArea() {
@@ -14,5 +14,15 @@ function getArea() {
     let area = 0.5 * (aSide + bSide) * trapHeight;
 
     // Output
-    document.getElementById("trapArea").innerHTML = area
+    document.getElementById("trapArea").innerHTML = "The area of the trapezoid is: " + area
+    document.getElementById("output").style.display = "block";
+
+}
+
+// Event listener clear button
+document.getElementById("clearBtn").addEventListener("click", clear)
+
+// Event function clear button
+function clear() {
+    location.reload()
 }
