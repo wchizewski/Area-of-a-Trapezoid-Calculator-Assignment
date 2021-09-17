@@ -26,3 +26,4 @@ document.getElementById("clearBtn").addEventListener("click", clear)
 function clear() {
     location.reload()
 }
+ 
